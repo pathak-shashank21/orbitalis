@@ -1,0 +1,24 @@
+# === Python cache and virtual environments ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.venv/
+.venv_orbitalis/
+.env
+
+# === OS & IDE files ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# === Build artifacts ===
+build/
+dist/
+*.egg
+*.egg-info/
+*.whl
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/

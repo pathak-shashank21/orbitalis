@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbitalis"
+version = "0.1.0"
+description = "Satellite conjunction analysis and dashboarding toolkit"
+authors = [
+    { name="Shashank Pathak", email="your.email@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "sgp4",
+    "streamlit"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pathak-shashank21/orbitalis"
+"Repository" = "https://github.com/pathak-shashank21/orbitalis"
